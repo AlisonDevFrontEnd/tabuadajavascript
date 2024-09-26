@@ -1,0 +1,20 @@
+#result {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.tabuada {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.tabuada h3 {
+  margin-bottom: 0.5rem;
+}
+
+.tabuada p {
+  margin: 0.25rem 0;
+}
