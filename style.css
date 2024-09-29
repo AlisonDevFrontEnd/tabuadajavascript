@@ -1,20 +1,32 @@
-#result {
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 20px;
+}
+
+
+.result {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
 }
-
-.tabuada {
+.multiplication-table {
   padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+  border: 1px solid #ccc;
   background-color: #f9f9f9;
+  border-radius: 8px;
+  display: grid;
+  place-items: center;
 }
-
-.tabuada h3 {
-  margin-bottom: 0.5rem;
+.multiplication-table h3 {
+  margin-top: 0.25rem;
 }
-
-.tabuada p {
-  margin: 0.25rem 0;
+.multiplication-table p {
+  margin: 0.5rem;
 }
