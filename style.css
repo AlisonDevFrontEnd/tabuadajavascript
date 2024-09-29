@@ -21,8 +21,6 @@ body {
   border: 1px solid #ccc;
   background-color: #f9f9f9;
   border-radius: 8px;
-  display: grid;
-  place-items: center;
 }
 .multiplication-table h3 {
   margin-top: 0.25rem;
