@@ -41,3 +41,14 @@ footer {
 .multiplication-table p {
   margin: 0.25rem 0;
 }
+
+footer {
+  position: fixed;
+  inset: auto 0 0 0;
+}
+
+@media (max-width: 768px) {
+  footer {
+    position: static;
+  }
+}
